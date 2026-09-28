@@ -1,0 +1,100 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/second_platform?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  jackson:
+    # 忽略未知字段
+    deserialization:
+      fail-on-unknown-properties: false
+    # 日期格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+    timeout: 10s
+    lettuce:
+      pool:
+        max-active: 8    # 连接池最大连接数
+        max-idle: 8      # 连接池最大空闲连接
+        min-idle: 0      # 连接池最小空闲连接
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto  # 确保这里没有强制设置为其他值
+
+
+# Knife4j 配置
+knife4j:
+  # 开启增强配置
+  enable: true
+  # 开启生产环境屏蔽
+  production: false
+  # 基础配置
+  setting:
+    # 是否开启Swagger
+    enable-swagger: true
+    # 是否开启动态请求参数
+    enable-dynamic-parameter: true
+    # 是否开启过滤
+    enable-filter: true
+    # 是否开启文档管理
+    enable-document-manage: true
+    # 是否显示Host
+    show-host: true
+    # 是否显示请求头
+    enable-request-header: true
+    # 是否显示请求时长
+    enable-request-duration: true
+    # 是否显示Footer
+    enable-footer: true
+    # Footer自定义内容
+    footer-custom-content: Copyright © 2024 Your Company
+
+# DeepSeek 配置（兼容 OpenAI API）
+deepseek:
+  api:
+    # DeepSeek API Key（请从 https://platform.deepseek.com/ 获取）
+    key:
+    # DeepSeek API 基础URL
+    base-url: https://api.deepseek.com
+    # 使用的模型
+    model: deepseek-chat
+    # 超时时间（秒）
+    timeout: 60
+    # 最大重试次数
+    max-retries: 3
+    # 温度参数（0-2，控制随机性）
+    temperature: 0.7
+    # 最大输出Token数
+    max-tokens: 2000
+    # Top-p 采样
+    top-p: 0.95
+aliyun:
+  oss:
+    endpoint:    # 你的地域节点
+    accessKeyId:         # 替换成你的
+    accessKeySecret:      # 替换成你的
+    bucketName:            # 桶名
+    fileHost: upload                        # 上传目录（可自定义）
+tongyi:
+  api-key:
+# JWT 配置
+jwt:
+  secret:
+  expire: 86400
+
+
