@@ -7,6 +7,8 @@
 项目完整功能演示：
 
 [Bilibili：觅物小程序（校园二手交易平台）](https://www.bilibili.com/video/BV1yAa36QEbt/?vd_source=c9d7966008b12d4258725fb271860825)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/8d656e4c-f507-4584-9b47-a92e917694a1" />
+
 
 ## 项目介绍
 
