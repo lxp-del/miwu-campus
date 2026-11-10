@@ -7,7 +7,6 @@
 项目完整功能演示：
 
 [Bilibili：觅物小程序（校园二手交易平台）](https://www.bilibili.com/video/BV1yAa36QEbt/?vd_source=c9d7966008b12d4258725fb271860825)
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/8d656e4c-f507-4584-9b47-a92e917694a1" />
 
 
 ## 项目介绍
@@ -15,6 +14,20 @@
 觅物主要针对校园二手交易场景进行开发，用户完成身份认证后，可以发布和浏览二手商品，也可以通过私信与其他用户进行沟通。
 
 平台包含商品、订单、评论、社区、消息、个人中心等基础业务，同时接入 AI 服务，为商品发布和商品查询提供辅助能力。
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/4f79991b-f27f-4e59-b7b8-04e308284f8f" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/337f7cdd-e059-441f-8ab7-c87c5730f29f" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d80e3544-367b-49d7-936a-f7b91024fdad" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/8baa823b-0451-4880-8da4-ec02cdc4be42" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/4cb8ab4c-c5d5-4b73-8c0a-5f477073db0d" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/47302c50-707d-44d4-9506-7ee92309d181" />
+<img width="617" height="720" alt="image" src="https://github.com/user-attachments/assets/b8098ac9-8c68-4bf8-9877-8418d0d383a7" />
+
+
+
+
+
+
 
 主要功能包括：
 
